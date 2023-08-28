@@ -4,7 +4,28 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int a = 17;
+            int b = 4;
+
+            int quotient = a / b;
+            int remainder = a % b;
+
+
+            if (a == 17 && b == 4)
+            {
+                Console.WriteLine($"{a}/{b} is {quotient} remainder {remainder}");
+            }
+
+            double areaOfCircle = Operators.AreaOfCircle();
+            Console.WriteLine(areaOfCircle);
+
+
+            int i = 3;
+            int j = 4;
+            int k = ++i * j++;
+            Console.WriteLine(k);
+
+
         }
     }
 }
