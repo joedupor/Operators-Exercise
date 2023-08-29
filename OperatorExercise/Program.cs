@@ -17,7 +17,7 @@
             }
 
             double areaOfCircle = Operators.AreaOfCircle();
-            Console.WriteLine(areaOfCircle);
+            Console.WriteLine($"The area of a circle with radius of 20 is {areaOfCircle}");
 
 
             int i = 3;
